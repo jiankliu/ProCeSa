@@ -11,7 +11,7 @@ import torch
 
 from esm_local import FastaBatchedDataset
 import os
-from .models.esmc import ESMC
+from esm_next.models.esmc import ESMC
 
 def create_parser():
     parser = argparse.ArgumentParser(
